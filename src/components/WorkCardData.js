@@ -1,6 +1,6 @@
 import pro1 from "../assets/tictactoe.png";
 import pro2 from "../assets/stonepaper.png";
-// import pro3 from "../assets/phantomfeedback.png";
+import pro3 from "../assets/phantomfeedback.png";
 const ProjectCardData = [
     {
         imgsrc: pro1,
@@ -17,7 +17,7 @@ const ProjectCardData = [
         src: "https://github.com/kisnagoyal/StonePaperScissor"
     },
     {
-        // imgsrc:pro3,
+        imgsrc:pro3,
         title : "Phantom Feedback",
         text: "Dive into the world of feedback",
         view : "https://phantomfeedback.vercel.app/", // index.html linkk
