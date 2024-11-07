@@ -1,6 +1,4 @@
 import "./WorkCardStyle.css";
-// import pro1 from "../assets/tictactoe.png";
-// import { NavLink } from "react-router-dom";
 
 import WorkCard from "./WorkCard";
 import WorkCardData from "./WorkCardData";
@@ -19,6 +17,7 @@ const Work = () => {
                             title={val.title}
                             text={val.text}
                             view={val.view}
+                            src={val.src}
                         />
                     )
                 })}  
